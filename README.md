@@ -53,10 +53,10 @@ Never put the Qloo key in frontend variables, browser storage, source code or sc
 The smoke test makes two small live requests (one entity search and one same-category movie recommendation). Run it only when you are ready to spend two Qloo API requests:
 
 ```bash
-python scripts/smoke_qloo.py Indore
+python scripts/smoke_qloo.py movie
 ```
 
-It prints the selected seed and returned place names, never the API key. A configured key alone is not proof of successful authentication; use this check before recording the demo.
+It prints the selected seed and returned recommendation names, never the API key. A configured key alone is not proof of successful authentication; use this check before recording the demo.
 
 ## Tests
 
